@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="item_name">Item Name</string>
+    <string name="text_hint">Item Name</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="add_item">Add Item</string>
+    <string name="tv_display_init">No menu item selected</string>
+    <string name="menu_add_activity">Add Item</string>
+    <string name="add_list_display">Add a new item</string>
+    <string name="menu_option_add">Add item</string>
+    <string name="menu_option_DeleteAll">Delete All</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="my_shopping_list">Shopping List</string>
+    <string name="et_hint">Enter text here</string>
+</resources>

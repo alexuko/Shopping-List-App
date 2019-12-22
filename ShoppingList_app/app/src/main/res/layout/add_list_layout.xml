@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/add_ly_textField"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:hint="Item name"
+        android:inputType="text"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"/>
+    <Button
+        android:id="@+id/add_ly_clear"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@id/add_ly_textField"
+        android:layout_toEndOf="@id/add_ly_textField"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:drawableLeft="@drawable/ic_action_erase"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/edit_ly_qty_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Quantity"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/add_ly_textField"/>
+
+    <NumberPicker
+        android:id="@+id/add_ly_numberPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_ly_qty_label"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/add_ly_actionButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp">
+
+        <Button
+            android:id="@+id/add_ly_button_cancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_margin="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableLeft="@drawable/ic_action_exit"
+            android:background="@color/Button_red"
+            android:textColor="@color/Button_grey_dark"/>
+
+
+        <Button
+            android:id="@+id/add_ly_button_save"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Add Item"
+            android:layout_margin="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableLeft="@drawable/ic_action_add_plus_circle"
+            android:background="@color/Button_green"
+            android:textColor="@color/Button_grey_dark"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

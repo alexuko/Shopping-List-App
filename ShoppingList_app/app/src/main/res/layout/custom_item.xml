@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@color/light_Blue">
+
+    <TextView
+        android:id="@+id/ci_tv_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="id"/>
+    <Button
+        android:id="@+id/ci_remove_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="7dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:drawableLeft="@drawable/ic_action_circle_minus"
+        android:background="@android:color/transparent"
+        android:textColor="@color/Button_grey_dark"/>
+
+    <TextView
+        android:id="@+id/ci_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:paddingLeft="7dp"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_margin="5dp"
+        android:text="Item Name"
+        android:layout_toRightOf="@id/ci_remove_btn"
+        android:layout_centerVertical="true"/>
+
+
+    <TextView
+        android:id="@+id/ci_tv_qty"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/ci_edit_btn"
+        android:text="0"
+        android:textColor="@color/mid_Blue"/>
+
+    <Button
+        android:id="@+id/ci_edit_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_action_edit"
+        android:textColor="@color/Button_grey_dark"
+        android:background="@android:color/transparent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

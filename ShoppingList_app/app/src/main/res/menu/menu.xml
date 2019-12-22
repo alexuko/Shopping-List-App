@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.myapplicationbsl.ListActivity"
+    >
+
+    <item
+        android:id="@+id/navBar_add_items"
+        android:orderInCategory="100"
+        android:title="@string/menu_option_add"
+        android:icon="@drawable/ic_action_addtolist"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/navBar_delete_items"
+        android:orderInCategory="100"
+        android:title="@string/menu_option_add"
+        android:icon="@drawable/ic_action_bin"
+        app:showAsAction="always"/>
+
+</menu>
